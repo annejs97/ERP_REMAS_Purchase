@@ -67,10 +67,10 @@
             this.menuButton = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbUser = new System.Windows.Forms.Label();
+            this.pbUser = new REMAS.Contoller.CircularPictureBox();
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.homeTimer = new System.Windows.Forms.Timer(this.components);
             this.subTimer = new System.Windows.Forms.Timer(this.components);
-            this.pbUser = new REMAS.Contoller.CircularPictureBox();
             this.customPanel1 = new REMAS.Contoller.CustomPanel();
             this.panel1.SuspendLayout();
             this.sidebarPanel.SuspendLayout();
@@ -576,6 +576,18 @@
             this.lbUser.Text = "Adi Ilham";
             this.lbUser.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // pbUser
+            // 
+            this.pbUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbUser.Image = global::REMAS.Properties.Resources.user_50;
+            this.pbUser.Location = new System.Drawing.Point(774, 5);
+            this.pbUser.Name = "pbUser";
+            this.pbUser.Size = new System.Drawing.Size(22, 22);
+            this.pbUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbUser.TabIndex = 4;
+            this.pbUser.TabStop = false;
+            this.pbUser.Click += new System.EventHandler(this.pbUser_Click);
+            // 
             // sidebarTimer
             // 
             this.sidebarTimer.Interval = 10;
@@ -591,18 +603,6 @@
             this.subTimer.Interval = 10;
             this.subTimer.Tick += new System.EventHandler(this.subTimer_Tick);
             // 
-            // pbUser
-            // 
-            this.pbUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbUser.Image = global::REMAS.Properties.Resources.user_50;
-            this.pbUser.Location = new System.Drawing.Point(774, 5);
-            this.pbUser.Name = "pbUser";
-            this.pbUser.Size = new System.Drawing.Size(22, 22);
-            this.pbUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbUser.TabIndex = 4;
-            this.pbUser.TabStop = false;
-            this.pbUser.Click += new System.EventHandler(this.pbUser_Click);
-            // 
             // customPanel1
             // 
             this.customPanel1.BorderColor = System.Drawing.Color.White;
@@ -613,7 +613,7 @@
             this.customPanel1.Radius = 20;
             this.customPanel1.Size = new System.Drawing.Size(125, 65);
             this.customPanel1.TabIndex = 7;
-            this.customPanel1.Thickness = 5F;
+            this.customPanel1.Thickness = 0F;
             // 
             // fmMenu
             // 

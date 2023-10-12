@@ -1,1 +1,8 @@
 /bin
+/obj
+/obj/Debug
+/obj/Debug/TempPE
+obj
+/.vs
+/.vs/REMAS/FileContentIndex
+/.vs/REMAS/v17

@@ -51,18 +51,6 @@
     <ApplicationIcon>HTAIND.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\MetroFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\MetroFramework.Design.dll</HintPath>
-    </Reference>
-    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\MetroFramework.Fonts.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1576.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
     </Reference>
@@ -198,6 +186,18 @@
     </Compile>
     <Compile Include="Forms\fmMenu.Designer.cs">
       <DependentUpon>fmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Purchasing\fmMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Purchasing\fmMaterial.Designer.cs">
+      <DependentUpon>fmMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Purchasing\fmMaterialType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Purchasing\fmMaterialType.Designer.cs">
+      <DependentUpon>fmMaterialType.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Sales\fmAddCustPartNumber.cs">
       <SubType>Form</SubType>
