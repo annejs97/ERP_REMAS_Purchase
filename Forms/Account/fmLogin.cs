@@ -242,7 +242,8 @@ namespace REMAS.Forms.Account
                             {
                                 Hide();
 
-                                form = new fmChangePassword("N", txtUserName.Text.Trim());
+                                /* to Form Change Password */
+                                //form = new fmChangePassword("N", txtUserName.Text.Trim());
                                 form.ShowDialog();
                             }
                         }

@@ -26,7 +26,7 @@ namespace REMAS
         CallForm callForm;
         RunQuery qu_All; 
         DataTable myData;
-        MyMessageBox messageBox;
+        myMsgBox messageBox;
         private Form activeForm;
 
         public const int WM_NCLBUTTONDOWN = 0xA1;

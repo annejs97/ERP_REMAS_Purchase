@@ -179,7 +179,7 @@ namespace REMAS.Module
             for (int i = 0; i < typelist.Length; i++)
             {//Loop on them 
                 //if (typelist[i].BaseType == typeof(System.Windows.Forms.Form) && typelist[i].Name == formName)
-                if (typelist[i].BaseType == typeof(MetroFramework.Forms.MetroForm) && typelist[i].Name == formName)
+                if (typelist[i].BaseType == typeof(Form) && typelist[i].Name == formName)
                     {//if windows form and the name is match
 
                     //Create Instance and show it

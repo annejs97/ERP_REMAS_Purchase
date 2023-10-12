@@ -145,12 +145,6 @@
     <Compile Include="Forms\Account\fmBackground.Designer.cs">
       <DependentUpon>fmBackground.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Account\fmChangePassword.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Account\fmChangePassword.Designer.cs">
-      <DependentUpon>fmChangePassword.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\Account\fmHash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,12 +168,6 @@
     </Compile>
     <Compile Include="Forms\Custom\fmSplash.Designer.cs">
       <DependentUpon>fmSplash.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Custom\MyMessageBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Custom\MyMessageBox.Designer.cs">
-      <DependentUpon>MyMessageBox.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Custom\myMsgBox.cs">
       <SubType>Form</SubType>
@@ -254,9 +242,6 @@
     <EmbeddedResource Include="Forms\Account\fmBackground.resx">
       <DependentUpon>fmBackground.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Account\fmChangePassword.resx">
-      <DependentUpon>fmChangePassword.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Account\fmHash.resx">
       <DependentUpon>fmHash.cs</DependentUpon>
     </EmbeddedResource>
@@ -268,9 +253,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Custom\fmSplash.resx">
       <DependentUpon>fmSplash.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Custom\MyMessageBox.resx">
-      <DependentUpon>MyMessageBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Custom\myMsgBox.resx">
       <DependentUpon>myMsgBox.cs</DependentUpon>
