@@ -1,0 +1,296 @@
+E:\Source\HTA\C#\REMAS\bin\Debug\REMAS.exe.config
+E:\Source\HTA\C#\REMAS\bin\Debug\REMAS.exe
+E:\Source\HTA\C#\REMAS\bin\Debug\REMAS.pdb
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.csproj.AssemblyReference.cache
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.fmREMAS.resources
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.Forms.Account.fmChangePassword.resources
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.Forms.Account.fmHash.resources
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.Forms.Account.fmLogin.resources
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.Forms.Custom.MyMessageBox.resources
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.Properties.Resources.resources
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.csproj.GenerateResource.cache
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.csproj.CoreCompileInputs.cache
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.csproj.CopyComplete
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.exe
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.pdb
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.Forms.Account.fmBackground.resources
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.Forms.Account.fmUser.resources
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.Forms.Custom.myMsgBox.resources
+E:\Source\HTA\C#\REMAS\obj\Debug\REMAS.csproj.SuggestedBindingRedirects.cache
+E:\Source\HTA\C#\REMAS\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\Microsoft.ReportViewer.WebDesign.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\EnvDTE.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\stdole.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\Microsoft.MSXML.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Source\HTA\C#\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+\\192.168.111.4\it\BACKUP\TITIP FATONI\PC\E\Source\HTA\C#\REMAS\obj\Debug\REMAS.csproj.AssemblyReference.cache
+\\192.168.111.4\it\BACKUP\TITIP FATONI\PC\E\Source\HTA\C#\REMAS\obj\Debug\REMAS.csproj.SuggestedBindingRedirects.cache
+\\192.168.111.4\it\BACKUP\TITIP FATONI\PC\E\Source\HTA\C#\REMAS\obj\Debug\REMAS.exe
+\\192.168.111.4\it\BACKUP\TITIP FATONI\PC\E\Source\HTA\C#\REMAS\obj\Debug\REMAS.pdb
+F:\NEW SYSTEM\REMAS\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\REMAS.exe.config
+F:\NEW SYSTEM\REMAS\bin\Debug\REMAS.exe
+F:\NEW SYSTEM\REMAS\bin\Debug\REMAS.pdb
+F:\NEW SYSTEM\REMAS\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\Microsoft.ReportViewer.WebDesign.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\EnvDTE.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\stdole.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\Microsoft.MSXML.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\NEW SYSTEM\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.csproj.AssemblyReference.cache
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.fmREMAS.resources
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.Forms.Account.fmBackground.resources
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.Forms.Account.fmChangePassword.resources
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.Forms.Account.fmHash.resources
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.Forms.Account.fmLogin.resources
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.Forms.Account.fmUser.resources
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.Forms.Custom.fmSplash.resources
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.Forms.Custom.MyMessageBox.resources
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.Forms.Custom.myMsgBox.resources
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.Forms.FmDashboard.resources
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.Properties.Resources.resources
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.csproj.GenerateResource.cache
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.csproj.CoreCompileInputs.cache
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.csproj.CopyComplete
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.exe
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.pdb
+F:\NEW SYSTEM\REMAS\obj\Debug\REMAS.Forms.Sales.fmAddMasCust.resources
+E:\HTA\Source Program\C#\REMAS\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\REMAS.exe.config
+E:\HTA\Source Program\C#\REMAS\bin\Debug\REMAS.exe
+E:\HTA\Source Program\C#\REMAS\bin\Debug\REMAS.pdb
+E:\HTA\Source Program\C#\REMAS\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\Microsoft.ReportViewer.WebDesign.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\EnvDTE.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\stdole.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\de\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\es\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\it\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\de\Microsoft.ReportViewer.WebForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\fr\Microsoft.ReportViewer.WebForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\it\Microsoft.ReportViewer.WebForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ja\Microsoft.ReportViewer.WebForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ko\Microsoft.ReportViewer.WebForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\pt\Microsoft.ReportViewer.WebForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ru\Microsoft.ReportViewer.WebForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.csproj.AssemblyReference.cache
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.csproj.SuggestedBindingRedirects.cache
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.fmREMAS.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Account.fmBackground.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Account.fmChangePassword.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Account.fmHash.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Account.fmLogin.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Account.fmUser.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Custom.fmSplash.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Custom.MyMessageBox.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Custom.myMsgBox.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Contoller.RJTextBox.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.FmDashboard.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.fmMenu.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Sales.fmAddMasCust.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Sales.fmCustomer.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Properties.Resources.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.csproj.GenerateResource.cache
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.csproj.CoreCompileInputs.cache
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.csproj.CopyComplete
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.exe
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.pdb
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Sales.fmAddCustPartNumber.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Sales.fmCustPartNumber.resources
+E:\HTA\Source Program\C#\REMAS\obj\Debug\REMAS.Forms.Sales.fmSalesOrder.resources
