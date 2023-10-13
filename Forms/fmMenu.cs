@@ -118,7 +118,14 @@ namespace REMAS.Forms
         private void pbUser_Click(object sender, EventArgs e)
         {
             // Masuk menu logout dan ganti password
-
+            if(pnUserControl.Visible == true) 
+            {
+                pnUserControl.Visible = false;
+            }
+            else if (pnUserControl.Visible == false)
+            {
+                pnUserControl.Visible = true;
+            }
         }
     }
 }
