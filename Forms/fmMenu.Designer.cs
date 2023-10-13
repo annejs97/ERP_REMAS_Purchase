@@ -71,7 +71,9 @@
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.homeTimer = new System.Windows.Forms.Timer(this.components);
             this.subTimer = new System.Windows.Forms.Timer(this.components);
-            this.customPanel1 = new REMAS.Contoller.CustomPanel();
+            this.pnUserControl = new REMAS.Contoller.CustomPanel();
+            this.btnChangePass = new REMAS.Contoller.CircularButton();
+            this.btnExit = new REMAS.Contoller.CircularButton();
             this.panel1.SuspendLayout();
             this.sidebarPanel.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -92,6 +94,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbUser)).BeginInit();
+            this.pnUserControl.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -603,24 +606,69 @@
             this.subTimer.Interval = 10;
             this.subTimer.Tick += new System.EventHandler(this.subTimer_Tick);
             // 
-            // customPanel1
+            // pnUserControl
             // 
-            this.customPanel1.BorderColor = System.Drawing.Color.White;
-            this.customPanel1.ColorBottom = System.Drawing.Color.Empty;
-            this.customPanel1.ColorTop = System.Drawing.Color.Empty;
-            this.customPanel1.Location = new System.Drawing.Point(871, 57);
-            this.customPanel1.Name = "customPanel1";
-            this.customPanel1.Radius = 20;
-            this.customPanel1.Size = new System.Drawing.Size(125, 65);
-            this.customPanel1.TabIndex = 7;
-            this.customPanel1.Thickness = 0F;
+            this.pnUserControl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnUserControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.pnUserControl.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.pnUserControl.ColorBottom = System.Drawing.Color.Empty;
+            this.pnUserControl.ColorTop = System.Drawing.Color.Empty;
+            this.pnUserControl.Controls.Add(this.btnExit);
+            this.pnUserControl.Controls.Add(this.btnChangePass);
+            this.pnUserControl.Location = new System.Drawing.Point(871, 57);
+            this.pnUserControl.Name = "pnUserControl";
+            this.pnUserControl.Radius = 20;
+            this.pnUserControl.Size = new System.Drawing.Size(125, 57);
+            this.pnUserControl.TabIndex = 7;
+            this.pnUserControl.Thickness = 0F;
+            this.pnUserControl.Visible = false;
+            // 
+            // btnChangePass
+            // 
+            this.btnChangePass.BackColor = System.Drawing.Color.Transparent;
+            this.btnChangePass.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnChangePass.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnChangePass.BorderRadius = 27;
+            this.btnChangePass.BorderSize = 0;
+            this.btnChangePass.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnChangePass.FlatAppearance.BorderSize = 0;
+            this.btnChangePass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChangePass.ForeColor = System.Drawing.Color.White;
+            this.btnChangePass.Location = new System.Drawing.Point(0, 0);
+            this.btnChangePass.Name = "btnChangePass";
+            this.btnChangePass.Size = new System.Drawing.Size(125, 27);
+            this.btnChangePass.TabIndex = 0;
+            this.btnChangePass.Text = "●   Change Password";
+            this.btnChangePass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnChangePass.TextColor = System.Drawing.Color.White;
+            this.btnChangePass.UseVisualStyleBackColor = false;
+            // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.Transparent;
+            this.btnExit.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnExit.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnExit.BorderRadius = 27;
+            this.btnExit.BorderSize = 0;
+            this.btnExit.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.Location = new System.Drawing.Point(0, 27);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(125, 27);
+            this.btnExit.TabIndex = 1;
+            this.btnExit.Text = "●   Exit";
+            this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExit.TextColor = System.Drawing.Color.White;
+            this.btnExit.UseVisualStyleBackColor = false;
             // 
             // fmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 700);
-            this.Controls.Add(this.customPanel1);
+            this.Controls.Add(this.pnUserControl);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.sidebarPanel);
             this.Controls.Add(this.panel1);
@@ -651,6 +699,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbUser)).EndInit();
+            this.pnUserControl.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -698,6 +747,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label lbUser;
-        private Contoller.CustomPanel customPanel1;
+        private Contoller.CustomPanel pnUserControl;
+        private Contoller.CircularButton btnExit;
+        private Contoller.CircularButton btnChangePass;
     }
 }
