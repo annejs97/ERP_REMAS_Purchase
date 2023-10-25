@@ -193,6 +193,12 @@
     <Compile Include="Forms\fmMenu.Designer.cs">
       <DependentUpon>fmMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Purchasing\fmAddMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Purchasing\fmAddMaterial.Designer.cs">
+      <DependentUpon>fmAddMaterial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Purchasing\fmMaterial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -280,6 +286,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\fmMenu.resx">
       <DependentUpon>fmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Purchasing\fmAddMaterial.resx">
+      <DependentUpon>fmAddMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Purchasing\fmMaterial.resx">
+      <DependentUpon>fmMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Purchasing\fmMaterialType.resx">
+      <DependentUpon>fmMaterialType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Sales\fmAddCustPartNumber.resx">
       <DependentUpon>fmAddCustPartNumber.cs</DependentUpon>

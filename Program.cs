@@ -21,7 +21,7 @@ namespace REMAS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmChangePassword());
+            Application.Run(new fmMenu());
         }
     }
 }
