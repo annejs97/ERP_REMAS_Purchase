@@ -12,6 +12,10 @@ namespace REMAS.Forms.Sales
 {
     public partial class fmAddMasCust : Form
     {
+        public fmAddMasCust()
+        {
+            InitializeComponent();
+        }
         public fmAddMasCust(string custid, string newdata)
         {
             InitializeComponent();

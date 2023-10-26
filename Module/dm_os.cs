@@ -166,9 +166,10 @@ namespace REMAS.Module
 
     public class CallForm
     {
+        // No MDIParent only to fm Login
         public void fmNames(Type formName)
         {
-            Form frm = new Form();        
+            Form frm = new Form();
             frm = (Form)Activator.CreateInstance(formName);
             frm.ShowDialog();
         }
@@ -180,7 +181,7 @@ namespace REMAS.Module
             {//Loop on them 
                 //if (typelist[i].BaseType == typeof(System.Windows.Forms.Form) && typelist[i].Name == formName)
                 if (typelist[i].BaseType == typeof(Form) && typelist[i].Name == formName)
-                    {//if windows form and the name is match
+                {//if windows form and the name is match
 
                     //Create Instance and show it
                     Form tmp = (Form)Activator.CreateInstance(typelist[i]);

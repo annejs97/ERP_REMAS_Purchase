@@ -1,5 +1,6 @@
 ﻿using REMAS.Forms.Account;
 using REMAS.Forms.Custom;
+using REMAS.Forms.Purchasing;
 using REMAS.Module;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,6 @@ namespace REMAS.Forms.Sales
         Form form = new Form();
         Security crypto;
         RunQuery qu_All;
-        CallForm callForm;
         DataTable myData, myData2;
         myMsgBox messageBox;
         public fmCustomer()
@@ -37,8 +37,12 @@ namespace REMAS.Forms.Sales
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            form = new fmAddMasCust("", "N");
-            form.ShowDialog();
+            Form f2 = new fmAddMasCust("", "N");
+            if (f2 != null)
+            {
+                f2.MdiParent = (fmMenu)this.MdiParent;
+                f2.Show();
+            }
         }
 
         private void fmCustomer_Load(object sender, EventArgs e)

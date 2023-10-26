@@ -73,6 +73,16 @@ namespace REMAS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Accounting {
+            get {
+                object obj = ResourceManager.GetObject("Accounting", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ArrowRepeat {
             get {
                 object obj = ResourceManager.GetObject("ArrowRepeat", resourceCulture);
@@ -163,6 +173,16 @@ namespace REMAS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HR {
+            get {
+                object obj = ResourceManager.GetObject("HR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Icon_Inventory {
             get {
                 object obj = ResourceManager.GetObject("Icon Inventory", resourceCulture);
@@ -196,6 +216,16 @@ namespace REMAS.Properties {
         internal static System.Drawing.Bitmap Integrated {
             get {
                 object obj = ResourceManager.GetObject("Integrated", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Inventory {
+            get {
+                object obj = ResourceManager.GetObject("Inventory", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +323,39 @@ namespace REMAS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Production {
+            get {
+                object obj = ResourceManager.GetObject("Production", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Purchasing {
+            get {
+                object obj = ResourceManager.GetObject("Purchasing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rpt {
             get {
                 object obj = ResourceManager.GetObject("rpt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sales {
+            get {
+                object obj = ResourceManager.GetObject("Sales", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,6 +396,16 @@ namespace REMAS.Properties {
         internal static System.Drawing.Bitmap user_50 {
             get {
                 object obj = ResourceManager.GetObject("user 50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Utility {
+            get {
+                object obj = ResourceManager.GetObject("Utility", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

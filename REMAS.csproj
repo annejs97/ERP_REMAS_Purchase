@@ -100,6 +100,19 @@
     </Compile>
     <Compile Include="Contoller\MenuColorTable.cs" />
     <Compile Include="Contoller\MenuRenderer.cs" />
+    <Compile Include="Contoller\NavBar\csNavBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contoller\NavBar\csNavBar.Designer.cs">
+      <DependentUpon>csNavBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contoller\NavBar\MenuItem.cs" />
+    <Compile Include="Contoller\NavBar\NavBarItem.cs" />
+    <Compile Include="Contoller\NavBar\Themes\Definition\DarkTheme.cs" />
+    <Compile Include="Contoller\NavBar\Themes\Definition\TransparencyTheme.cs" />
+    <Compile Include="Contoller\NavBar\Themes\ITheme.cs" />
+    <Compile Include="Contoller\NavBar\Themes\ThemeEnum.cs" />
+    <Compile Include="Contoller\NavBar\Themes\ThemeSelector.cs" />
     <Compile Include="Contoller\RJComboBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -193,12 +206,6 @@
     <Compile Include="Forms\fmMenu.Designer.cs">
       <DependentUpon>fmMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Purchasing\fmAddMaterial.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Purchasing\fmAddMaterial.Designer.cs">
-      <DependentUpon>fmAddMaterial.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\Purchasing\fmMaterial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -210,6 +217,12 @@
     </Compile>
     <Compile Include="Forms\Purchasing\fmMaterialType.Designer.cs">
       <DependentUpon>fmMaterialType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Purchasing\ucAddMaterial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Purchasing\ucAddMaterial.Designer.cs">
+      <DependentUpon>ucAddMaterial.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Sales\fmAddCustPartNumber.cs">
       <SubType>Form</SubType>
@@ -254,6 +267,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="Contoller\NavBar\csNavBar.resx">
+      <DependentUpon>csNavBar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fmREMAS.resx">
       <DependentUpon>fmREMAS.cs</DependentUpon>
     </EmbeddedResource>
@@ -287,14 +303,14 @@
     <EmbeddedResource Include="Forms\fmMenu.resx">
       <DependentUpon>fmMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Purchasing\fmAddMaterial.resx">
-      <DependentUpon>fmAddMaterial.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Purchasing\fmMaterial.resx">
       <DependentUpon>fmMaterial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Purchasing\fmMaterialType.resx">
       <DependentUpon>fmMaterialType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Purchasing\ucAddMaterial.resx">
+      <DependentUpon>ucAddMaterial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Sales\fmAddCustPartNumber.resx">
       <DependentUpon>fmAddCustPartNumber.cs</DependentUpon>
@@ -361,8 +377,15 @@
     <None Include="Resources\Save.png" />
     <None Include="Resources\PlusLg.png" />
     <None Include="Resources\Excel App.png" />
+    <None Include="Resources\Accounting.png" />
     <Content Include="Resources\calendarDark.png" />
     <Content Include="Resources\calendarWhite.png" />
+    <None Include="Resources\HR.png" />
+    <None Include="Resources\Inventory.png" />
+    <None Include="Resources\Production.png" />
+    <None Include="Resources\Purchasing.png" />
+    <None Include="Resources\Sales.png" />
+    <None Include="Resources\Utility.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
