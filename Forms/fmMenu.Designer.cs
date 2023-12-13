@@ -30,48 +30,46 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmMenu));
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlTop = new System.Windows.Forms.Panel();
             this.lbB = new System.Windows.Forms.Label();
             this.btnMinimize = new System.Windows.Forms.Button();
+            this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.menuButton = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbUser = new System.Windows.Forms.Label();
+            this.pbUser = new REMAS.Contoller.CircularPictureBox();
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.sidebarPanel = new System.Windows.Forms.Panel();
+            this.MenuItem = new REMAS.Contoller.NavBar.csNavBar();
             this.panel5 = new System.Windows.Forms.Panel();
             this.lbA = new System.Windows.Forms.Label();
             this.lbAA = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.lbIndex = new System.Windows.Forms.Label();
-            this.btnMaximize = new System.Windows.Forms.Button();
             this.pnUserControl = new REMAS.Contoller.CustomPanel();
-            this.btnExit = new REMAS.Contoller.CircularButton();
-            this.btnChangePass = new REMAS.Contoller.CircularButton();
-            this.pbUser = new REMAS.Contoller.CircularPictureBox();
-            this.MenuItem = new REMAS.Contoller.NavBar.csNavBar();
-            this.panel1.SuspendLayout();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnChangePass = new System.Windows.Forms.Button();
+            this.drag = new REMAS.Contoller.DragControl();
+            this.pnlTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbUser)).BeginInit();
             this.sidebarPanel.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.pnUserControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbUser)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnlTop
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.panel1.Controls.Add(this.lbB);
-            this.panel1.Controls.Add(this.btnMinimize);
-            this.panel1.Controls.Add(this.btnMaximize);
-            this.panel1.Controls.Add(this.btnClose);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1400, 27);
-            this.panel1.TabIndex = 0;
+            this.pnlTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.pnlTop.Controls.Add(this.lbB);
+            this.pnlTop.Controls.Add(this.btnMinimize);
+            this.pnlTop.Controls.Add(this.btnMaximize);
+            this.pnlTop.Controls.Add(this.btnClose);
+            this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlTop.Location = new System.Drawing.Point(0, 0);
+            this.pnlTop.Name = "pnlTop";
+            this.pnlTop.Size = new System.Drawing.Size(1400, 27);
+            this.pnlTop.TabIndex = 0;
             // 
             // lbB
             // 
@@ -102,6 +100,22 @@
             this.btnMinimize.Text = "-";
             this.btnMinimize.UseVisualStyleBackColor = false;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            // 
+            // btnMaximize
+            // 
+            this.btnMaximize.BackColor = System.Drawing.Color.Transparent;
+            this.btnMaximize.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnMaximize.FlatAppearance.BorderSize = 0;
+            this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMaximize.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaximize.ForeColor = System.Drawing.Color.Honeydew;
+            this.btnMaximize.Location = new System.Drawing.Point(1352, 0);
+            this.btnMaximize.Name = "btnMaximize";
+            this.btnMaximize.Size = new System.Drawing.Size(24, 27);
+            this.btnMaximize.TabIndex = 15;
+            this.btnMaximize.Text = "☐";
+            this.btnMaximize.UseVisualStyleBackColor = false;
+            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
             // btnClose
             // 
@@ -147,14 +161,27 @@
             // 
             this.lbUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbUser.BackColor = System.Drawing.Color.Transparent;
-            this.lbUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.lbUser.Location = new System.Drawing.Point(879, 4);
+            this.lbUser.Location = new System.Drawing.Point(891, 4);
             this.lbUser.Name = "lbUser";
-            this.lbUser.Size = new System.Drawing.Size(270, 24);
+            this.lbUser.Size = new System.Drawing.Size(251, 24);
             this.lbUser.TabIndex = 8;
             this.lbUser.Text = "Adi Ilham";
             this.lbUser.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // pbUser
+            // 
+            this.pbUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbUser.Image = global::REMAS.Properties.Resources.user_50;
+            this.pbUser.Location = new System.Drawing.Point(1148, 3);
+            this.pbUser.Name = "pbUser";
+            this.pbUser.Size = new System.Drawing.Size(27, 27);
+            this.pbUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbUser.TabIndex = 4;
+            this.pbUser.TabStop = false;
+            this.pbUser.Click += new System.EventHandler(this.pbUser_Click);
             // 
             // sidebarTimer
             // 
@@ -164,6 +191,7 @@
             // sidebarPanel
             // 
             this.sidebarPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("sidebarPanel.BackgroundImage")));
+            this.sidebarPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.sidebarPanel.Controls.Add(this.MenuItem);
             this.sidebarPanel.Controls.Add(this.panel5);
             this.sidebarPanel.Dock = System.Windows.Forms.DockStyle.Left;
@@ -173,6 +201,18 @@
             this.sidebarPanel.Name = "sidebarPanel";
             this.sidebarPanel.Size = new System.Drawing.Size(222, 873);
             this.sidebarPanel.TabIndex = 9;
+            // 
+            // MenuItem
+            // 
+            this.MenuItem.AutoScroll = true;
+            this.MenuItem.BackColor = System.Drawing.Color.Transparent;
+            this.MenuItem.Dock = System.Windows.Forms.DockStyle.Left;
+            this.MenuItem.Location = new System.Drawing.Point(0, 46);
+            this.MenuItem.MaximumSize = new System.Drawing.Size(222, 0);
+            this.MenuItem.MinimumSize = new System.Drawing.Size(37, 0);
+            this.MenuItem.Name = "MenuItem";
+            this.MenuItem.Size = new System.Drawing.Size(222, 827);
+            this.MenuItem.TabIndex = 1;
             // 
             // panel5
             // 
@@ -209,45 +249,6 @@
             this.lbAA.TabIndex = 8;
             this.lbAA.Text = "Rubber Seal\r\nManagement System";
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.lbIndex);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(222, 57);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1178, 22);
-            this.panel3.TabIndex = 11;
-            // 
-            // lbIndex
-            // 
-            this.lbIndex.AutoSize = true;
-            this.lbIndex.BackColor = System.Drawing.Color.Transparent;
-            this.lbIndex.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbIndex.Font = new System.Drawing.Font("Dubai", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbIndex.ForeColor = System.Drawing.Color.Gray;
-            this.lbIndex.Location = new System.Drawing.Point(0, 0);
-            this.lbIndex.Name = "lbIndex";
-            this.lbIndex.Size = new System.Drawing.Size(44, 24);
-            this.lbIndex.TabIndex = 8;
-            this.lbIndex.Text = "Index";
-            // 
-            // btnMaximize
-            // 
-            this.btnMaximize.BackColor = System.Drawing.Color.Transparent;
-            this.btnMaximize.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnMaximize.FlatAppearance.BorderSize = 0;
-            this.btnMaximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximize.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMaximize.ForeColor = System.Drawing.Color.Honeydew;
-            this.btnMaximize.Location = new System.Drawing.Point(1352, 0);
-            this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(24, 27);
-            this.btnMaximize.TabIndex = 15;
-            this.btnMaximize.Text = "☐";
-            this.btnMaximize.UseVisualStyleBackColor = false;
-            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
-            // 
             // pnUserControl
             // 
             this.pnUserControl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -257,10 +258,10 @@
             this.pnUserControl.ColorTop = System.Drawing.Color.Empty;
             this.pnUserControl.Controls.Add(this.btnExit);
             this.pnUserControl.Controls.Add(this.btnChangePass);
-            this.pnUserControl.Location = new System.Drawing.Point(1273, 57);
+            this.pnUserControl.Location = new System.Drawing.Point(1226, 57);
             this.pnUserControl.Name = "pnUserControl";
             this.pnUserControl.Radius = 20;
-            this.pnUserControl.Size = new System.Drawing.Size(125, 56);
+            this.pnUserControl.Size = new System.Drawing.Size(172, 73);
             this.pnUserControl.TabIndex = 7;
             this.pnUserControl.Thickness = 0F;
             this.pnUserControl.Visible = false;
@@ -268,101 +269,77 @@
             // btnExit
             // 
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
-            this.btnExit.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnExit.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnExit.BorderRadius = 27;
-            this.btnExit.BorderSize = 0;
             this.btnExit.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnExit.FlatAppearance.BorderSize = 0;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(0, 27);
+            this.btnExit.Location = new System.Drawing.Point(0, 34);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(125, 27);
-            this.btnExit.TabIndex = 1;
+            this.btnExit.Size = new System.Drawing.Size(172, 34);
+            this.btnExit.TabIndex = 3;
             this.btnExit.Text = "●   Exit";
             this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExit.TextColor = System.Drawing.Color.White;
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.MouseEnter += new System.EventHandler(this.btnExit_MouseEnter);
+            this.btnExit.MouseLeave += new System.EventHandler(this.btnExit_MouseLeave);
             // 
             // btnChangePass
             // 
             this.btnChangePass.BackColor = System.Drawing.Color.Transparent;
-            this.btnChangePass.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnChangePass.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnChangePass.BorderRadius = 27;
-            this.btnChangePass.BorderSize = 0;
             this.btnChangePass.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnChangePass.FlatAppearance.BorderSize = 0;
             this.btnChangePass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChangePass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChangePass.ForeColor = System.Drawing.Color.White;
             this.btnChangePass.Location = new System.Drawing.Point(0, 0);
             this.btnChangePass.Name = "btnChangePass";
-            this.btnChangePass.Size = new System.Drawing.Size(125, 27);
-            this.btnChangePass.TabIndex = 0;
+            this.btnChangePass.Size = new System.Drawing.Size(172, 34);
+            this.btnChangePass.TabIndex = 2;
             this.btnChangePass.Text = "●   Change Password";
             this.btnChangePass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnChangePass.TextColor = System.Drawing.Color.White;
             this.btnChangePass.UseVisualStyleBackColor = false;
+            this.btnChangePass.MouseEnter += new System.EventHandler(this.btnChangePass_MouseEnter);
+            this.btnChangePass.MouseLeave += new System.EventHandler(this.btnChangePass_MouseLeave);
             // 
-            // pbUser
+            // drag
             // 
-            this.pbUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbUser.Image = global::REMAS.Properties.Resources.user_50;
-            this.pbUser.Location = new System.Drawing.Point(1152, 5);
-            this.pbUser.Name = "pbUser";
-            this.pbUser.Size = new System.Drawing.Size(22, 22);
-            this.pbUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbUser.TabIndex = 4;
-            this.pbUser.TabStop = false;
-            this.pbUser.Click += new System.EventHandler(this.pbUser_Click);
-            // 
-            // MenuItem
-            // 
-            this.MenuItem.AutoScroll = true;
-            this.MenuItem.BackColor = System.Drawing.Color.Transparent;
-            this.MenuItem.Dock = System.Windows.Forms.DockStyle.Left;
-            this.MenuItem.Location = new System.Drawing.Point(0, 46);
-            this.MenuItem.MaximumSize = new System.Drawing.Size(222, 0);
-            this.MenuItem.MinimumSize = new System.Drawing.Size(37, 0);
-            this.MenuItem.Name = "MenuItem";
-            this.MenuItem.Size = new System.Drawing.Size(222, 827);
-            this.MenuItem.TabIndex = 1;
+            this.drag.SelectControl = this.pnlTop;
             // 
             // fmMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1400, 900);
+            this.ControlBox = false;
             this.Controls.Add(this.pnUserControl);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.sidebarPanel);
-            this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Controls.Add(this.pnlTop);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "fmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fmMenu";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Load += new System.EventHandler(this.fmMenu_Load);
+            this.Resize += new System.EventHandler(this.fmMenu_Resize);
+            this.pnlTop.ResumeLayout(false);
+            this.pnlTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbUser)).EndInit();
             this.sidebarPanel.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.pnUserControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbUser)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlTop;
         private System.Windows.Forms.PictureBox menuButton;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Timer sidebarTimer;
@@ -371,16 +348,15 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label lbUser;
         private Contoller.CustomPanel pnUserControl;
-        private Contoller.CircularButton btnExit;
-        private Contoller.CircularButton btnChangePass;
         private System.Windows.Forms.Panel sidebarPanel;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label lbB;
         private System.Windows.Forms.Label lbAA;
         private Contoller.NavBar.csNavBar MenuItem;
         private System.Windows.Forms.Label lbA;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label lbIndex;
         private System.Windows.Forms.Button btnMaximize;
+        private Contoller.DragControl drag;
+        private System.Windows.Forms.Button btnChangePass;
+        private System.Windows.Forms.Button btnExit;
     }
 }

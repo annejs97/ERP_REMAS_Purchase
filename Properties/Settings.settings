@@ -2,7 +2,7 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="REMAS.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="Username" Type="System.String" Scope="User">
+    <Setting Name="User" Type="System.String" Scope="User">
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="DarkMode" Type="System.Boolean" Scope="User">

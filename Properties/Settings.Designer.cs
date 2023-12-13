@@ -26,12 +26,12 @@ namespace REMAS.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("1")]
-        public string Username {
+        public string User {
             get {
-                return ((string)(this["Username"]));
+                return ((string)(this["User"]));
             }
             set {
-                this["Username"] = value;
+                this["User"] = value;
             }
         }
         
@@ -68,15 +68,6 @@ namespace REMAS.Properties {
             }
             set {
                 this["PwdDB"] = value;
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("30")]
-        public int Ok {
-            get {
-                return ((int)(this["Ok"]));
             }
         }
     }

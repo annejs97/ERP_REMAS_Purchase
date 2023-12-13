@@ -44,7 +44,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.panel1.Controls.Add(this.lbHeader);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -72,31 +72,31 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 22);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(267, 87);
+            this.panel2.Size = new System.Drawing.Size(267, 91);
             this.panel2.TabIndex = 1;
             // 
             // lbMessage
             // 
-            this.lbMessage.BackColor = System.Drawing.Color.White;
+            this.lbMessage.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbMessage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbMessage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMessage.ForeColor = System.Drawing.Color.Black;
             this.lbMessage.Location = new System.Drawing.Point(0, 0);
             this.lbMessage.Name = "lbMessage";
-            this.lbMessage.Size = new System.Drawing.Size(267, 87);
+            this.lbMessage.Size = new System.Drawing.Size(267, 91);
             this.lbMessage.TabIndex = 0;
             this.lbMessage.Text = "Message Text";
             this.lbMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.panel3.Controls.Add(this.btnOk);
             this.panel3.Controls.Add(this.btnNo);
             this.panel3.Controls.Add(this.btnYes);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 109);
+            this.panel3.Location = new System.Drawing.Point(0, 113);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(267, 36);
             this.panel3.TabIndex = 2;
@@ -105,7 +105,7 @@
             // 
             this.btnOk.BackColor = System.Drawing.Color.White;
             this.btnOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnOk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.btnOk.Location = new System.Drawing.Point(189, 6);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 23);
@@ -119,7 +119,7 @@
             // 
             this.btnNo.BackColor = System.Drawing.Color.White;
             this.btnNo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.btnNo.Location = new System.Drawing.Point(189, 6);
             this.btnNo.Name = "btnNo";
             this.btnNo.Size = new System.Drawing.Size(75, 23);
@@ -133,7 +133,7 @@
             // 
             this.btnYes.BackColor = System.Drawing.Color.White;
             this.btnYes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnYes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnYes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.btnYes.Location = new System.Drawing.Point(115, 6);
             this.btnYes.Name = "btnYes";
             this.btnYes.Size = new System.Drawing.Size(75, 23);
@@ -153,14 +153,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(267, 145);
+            this.ClientSize = new System.Drawing.Size(267, 149);
+            this.ControlBox = false;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximumSize = new System.Drawing.Size(283, 165);
+            this.MinimumSize = new System.Drawing.Size(283, 165);
             this.Name = "myMsgBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "myMsgBox";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

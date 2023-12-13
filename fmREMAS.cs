@@ -42,7 +42,7 @@ namespace REMAS
         public fmREMAS()
         {
             InitializeComponent();
-            sUserCd = Properties.Settings.Default.Username;
+            sUserCd = Properties.Settings.Default.User;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
         }        
 

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Runtime.CompilerServices;
 using System.Reflection;
 using REMAS.Forms.Account;
+using System.Data.SqlClient;
 
 namespace REMAS.Module
 {
@@ -108,7 +109,161 @@ namespace REMAS.Module
                 MessageBox.Show("SQL EXEC Fail --> " + e.Message, "SQLConCLS - ExecSqlServer");
                 return false;
             }
+        }        
+
+        public bool ExecSql(string StrQuery, string StrQuery2)
+        {
+            string sServerAddress = Properties.Settings.Default.ServerName;
+            string sPassword = Properties.Settings.Default.PwdDB;
+            //string sServerAddress = "192.168.111.26";
+            string strConn = "Provider=SQLOLEDB.1;Password=" + sPassword + ";MultipleActiveResult=True;" +
+                             "Persist Security Info=True;User ID=sa;Initial Catalog=REMAS;" +
+                             "Data Source=" + sServerAddress + " ";
+
+            MyCon = new OleDbConnection(strConn);
+            OleDbTransaction trans = null;
+
+            try
+            {
+                MyCon.Open();
+                trans = MyCon.BeginTransaction();
+                cmd = new OleDbCommand(StrQuery, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                cmd = new OleDbCommand(StrQuery2, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                //trans.Rollback();
+                trans.Commit();
+                cmd.Dispose();
+                MyCon.Close();
+                return true;
+            }
+            catch (Exception e)
+            {
+                if (trans != null) trans.Rollback();
+                MyCon.Close();
+                MessageBox.Show("SQL EXEC Fail --> " + e.Message, "SQLConCLS - ExecSqlServer");
+                return false;
+            }
         }
+
+        public bool ExecSql(string StrQuery, string StrQuery2, string StrQuery3)
+        {
+            string sServerAddress = Properties.Settings.Default.ServerName;
+            string sPassword = Properties.Settings.Default.PwdDB;
+            //string sServerAddress = "192.168.111.26";
+            string strConn = "Provider=SQLOLEDB.1;Password=" + sPassword + ";MultipleActiveResult=True;" +
+                             "Persist Security Info=True;User ID=sa;Initial Catalog=REMAS;" +
+                             "Data Source=" + sServerAddress + " ";
+
+            MyCon = new OleDbConnection(strConn);
+            OleDbTransaction trans = null;
+
+            try
+            {
+                MyCon.Open();
+                trans = MyCon.BeginTransaction();
+                cmd = new OleDbCommand(StrQuery, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                cmd = new OleDbCommand(StrQuery2, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                cmd = new OleDbCommand(StrQuery3, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                //trans.Rollback();
+                trans.Commit();
+                cmd.Dispose();
+                MyCon.Close();
+                return true;
+            }
+            catch (Exception e)
+            {
+                if (trans != null) trans.Rollback();
+                MyCon.Close();
+                MessageBox.Show("SQL EXEC Fail --> " + e.Message, "SQLConCLS - ExecSqlServer");
+                return false;
+            }
+        }
+        /*
+        public bool ExecSql(string StrQuery, string StrQuery2, string StrQuery3, string StrQuery4)
+        {
+            string sServerAddress = Properties.Settings.Default.ServerName;
+            string sPassword = Properties.Settings.Default.PwdDB;
+            //string sServerAddress = "192.168.111.26";
+            string strConn = "Provider=SQLOLEDB.1;Password=" + sPassword + ";MultipleActiveResult=True;" +
+                             "Persist Security Info=True;User ID=sa;Initial Catalog=REMAS;" +
+                             "Data Source=" + sServerAddress + " ";
+
+            MyCon = new OleDbConnection(strConn);
+            OleDbTransaction trans = null;
+
+            try
+            {
+                MyCon.Open();
+                trans = MyCon.BeginTransaction();
+                cmd = new OleDbCommand(StrQuery, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                cmd = new OleDbCommand(StrQuery2, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                cmd = new OleDbCommand(StrQuery3, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                cmd = new OleDbCommand(StrQuery4, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                //trans.Rollback();
+                trans.Commit();
+                cmd.Dispose();
+                MyCon.Close();
+                return true;
+            }
+            catch (Exception e)
+            {
+                if (trans != null) trans.Rollback();
+                MyCon.Close();
+                MessageBox.Show("SQL EXEC Fail --> " + e.Message, "SQLConCLS - ExecSqlServer");
+                return false;
+            }
+        }
+
+
+        public bool ExecSql(string StrQuery, string StrQuery2, string StrQuery3, string StrQuery4, string StrQuery5)
+        {
+            string sServerAddress = Properties.Settings.Default.ServerName;
+            string sPassword = Properties.Settings.Default.PwdDB;
+            //string sServerAddress = "192.168.111.26";
+            string strConn = "Provider=SQLOLEDB.1;Password=" + sPassword + ";MultipleActiveResult=True;" +
+                             "Persist Security Info=True;User ID=sa;Initial Catalog=REMAS;" +
+                             "Data Source=" + sServerAddress + " ";
+
+            MyCon = new OleDbConnection(strConn);
+            OleDbTransaction trans = null;
+
+            try
+            {
+                MyCon.Open();
+                trans = MyCon.BeginTransaction();
+                cmd = new OleDbCommand(StrQuery, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                cmd = new OleDbCommand(StrQuery2, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                cmd = new OleDbCommand(StrQuery3, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                cmd = new OleDbCommand(StrQuery4, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                cmd = new OleDbCommand(StrQuery5, MyCon, trans);
+                cmd.ExecuteNonQuery();
+                //trans.Rollback();
+                trans.Commit();
+                cmd.Dispose();
+                MyCon.Close();
+                return true;
+            }
+            catch (Exception e)
+            {
+                if (trans != null) trans.Rollback();
+                MyCon.Close();
+                MessageBox.Show("SQL EXEC Fail --> " + e.Message, "SQLConCLS - ExecSqlServer");
+                return false;
+            }
+        }
+        */
     }
 
     public class Security

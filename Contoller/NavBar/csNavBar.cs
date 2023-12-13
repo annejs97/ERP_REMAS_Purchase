@@ -383,12 +383,12 @@ namespace REMAS.Contoller.NavBar
             }
         }
 
-        private void GetFirsAvailable(REMAS.NavBarItem clickedItem)
+        private void GetFirstAvailable(REMAS.NavBarItem clickedItem)
         {
             if (clickedItem.Childs[0].Childs != null && clickedItem.Childs.Count > 0)
             {
                 _parentID_List.Add(clickedItem.Childs[0].ID);
-                GetFirsAvailable(clickedItem.Childs[0]);
+                GetFirstAvailable(clickedItem.Childs[0]);
             }
         }
 
@@ -479,9 +479,10 @@ namespace REMAS.Contoller.NavBar
 
             _bChildFound = false;
 
+
             // Get the 1st available item :
             if (item.Childs != null && item.Childs.Count > 0)
-                GetFirsAvailable(item);
+                GetFirstAvailable(item);
 
             _parentID_index = 0;
 

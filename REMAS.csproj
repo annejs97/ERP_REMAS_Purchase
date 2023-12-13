@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>HTAIND.ico</ApplicationIcon>
+    <ApplicationIcon>HTAonly.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
@@ -96,6 +96,9 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Contoller\CustomPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contoller\DragControl.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Contoller\MenuColorTable.cs" />
@@ -218,24 +221,6 @@
     <Compile Include="Forms\Purchasing\fmMaterialType.Designer.cs">
       <DependentUpon>fmMaterialType.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Purchasing\ucAddMaterial.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Forms\Purchasing\ucAddMaterial.Designer.cs">
-      <DependentUpon>ucAddMaterial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Sales\fmAddCustPartNumber.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Sales\fmAddCustPartNumber.Designer.cs">
-      <DependentUpon>fmAddCustPartNumber.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Sales\fmAddMasCust.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Sales\fmAddMasCust.Designer.cs">
-      <DependentUpon>fmAddMasCust.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\Sales\fmCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -253,6 +238,12 @@
     </Compile>
     <Compile Include="Forms\Sales\fmSalesOrder.Designer.cs">
       <DependentUpon>fmSalesOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sales\ucAddCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Sales\ucAddCustomer.Designer.cs">
+      <DependentUpon>ucAddCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Utility\fmSystemList.cs">
       <SubType>Form</SubType>
@@ -309,15 +300,6 @@
     <EmbeddedResource Include="Forms\Purchasing\fmMaterialType.resx">
       <DependentUpon>fmMaterialType.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Purchasing\ucAddMaterial.resx">
-      <DependentUpon>ucAddMaterial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Sales\fmAddCustPartNumber.resx">
-      <DependentUpon>fmAddCustPartNumber.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Sales\fmAddMasCust.resx">
-      <DependentUpon>fmAddMasCust.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Sales\fmCustomer.resx">
       <DependentUpon>fmCustomer.cs</DependentUpon>
     </EmbeddedResource>
@@ -326,6 +308,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Sales\fmSalesOrder.resx">
       <DependentUpon>fmSalesOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sales\ucAddCustomer.resx">
+      <DependentUpon>ucAddCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -352,11 +337,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Images\Icon\" />
     <Folder Include="Report\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HTAIND.ico" />
-    <Content Include="Images\Icon\HTA.ico" />
+    <Content Include="HTAonly.ico" />
     <Content Include="Images\PNG\HTA.png" />
     <Content Include="Images\PNG\icons8-keepass-16.png" />
     <Content Include="Images\PNG\icons8-male-user-16.png" />

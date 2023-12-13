@@ -136,6 +136,7 @@ namespace REMAS.Contoller
         {
             base.OnHandleCreated(e);
             this.Parent.BackColorChanged += new EventHandler(Container_BackColorChanged);
+            this.Invalidate();
         }
 
         private void Container_BackColorChanged(object sender, EventArgs e)

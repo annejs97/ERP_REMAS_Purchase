@@ -249,11 +249,18 @@ namespace REMAS.Forms.Account
                         }
                         else
                         {
-                            Properties.Settings.Default.Username = txtUserName.Text.Trim();
+                            Properties.Settings.Default.User = txtUserName.Text.Trim();
                             Properties.Settings.Default.Save();
                             Hide();
-                            callForm.fmNames(typeof(fmREMAS));
+                            callForm.fmNames(typeof(fmMenu));
                         }
+                    }
+                    else
+                    {
+                        Properties.Settings.Default.User = txtUserName.Text.Trim();
+                        Properties.Settings.Default.Save();
+                        Hide();
+                        callForm.fmNames(typeof(fmMenu));
                     }
                 }
                 else

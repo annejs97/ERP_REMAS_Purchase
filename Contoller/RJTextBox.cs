@@ -19,9 +19,10 @@ namespace REMAS.Contoller
         private Color borderColor = Color.MediumSlateBlue;
         private Color borderFocusColor = Color.HotPink;
         private int borderSize = 2;
+        private int maxLength = 250;
         private bool underlinedStyle = false;
         private bool isFocused = false;
-
+        private CharacterCasing characterCasing;
         private int borderRadius = 0;
         private Color placeholderColor = Color.DarkGray;
         private string placeholderText = "";
@@ -74,6 +75,13 @@ namespace REMAS.Contoller
         }
 
         [Category("RJ Code Advance")]
+        public CharacterCasing CharacterCasing
+        {
+            get { return characterCasing; }
+            set { characterCasing = value; textBox1.CharacterCasing = value; }
+        }
+
+        [Category("RJ Code Advance")]
         public bool UnderlinedStyle
         {
             get { return underlinedStyle; }
@@ -93,6 +101,18 @@ namespace REMAS.Contoller
                 isPasswordChar = value;
                 if (!isPlaceholder)
                     textBox1.UseSystemPasswordChar = value;
+            }
+        }
+
+
+        [Category("RJ Code Advance")]
+        public int MaxLength
+        {
+            get { return maxLength; }
+            set
+            {
+                maxLength = value;
+                textBox1.MaxLength = maxLength;
             }
         }
 
@@ -143,7 +163,12 @@ namespace REMAS.Contoller
         {
             get
             {
-                if (isPlaceholder) return "";
+                // edit
+                if (isPlaceholder)
+                {
+                    if(placeholderText.ToLower() == textBox1.Text.ToLower()) return "";
+                    else return textBox1.Text;
+                } 
                 else return textBox1.Text;
             }
             set
@@ -277,17 +302,25 @@ namespace REMAS.Contoller
                 if (isPasswordChar)
                     textBox1.UseSystemPasswordChar = false;
             }
+            else
+            {
+                textBox1.Text = textBox1.Text;
+            }
         }
         private void RemovePlaceholder()
         {
-            if (isPlaceholder && placeholderText != "")
+            // edit FF
+            if (string.IsNullOrWhiteSpace(textBox1.Text) || textBox1.Text == placeholderText)
             {
-                isPlaceholder = false;
-                textBox1.Text = "";
-                textBox1.ForeColor = this.ForeColor;
-                if (isPasswordChar)
-                    textBox1.UseSystemPasswordChar = true;
-            }
+                if (isPlaceholder && placeholderText != "")
+                {
+                    isPlaceholder = false;
+                    textBox1.Text = "";
+                    textBox1.ForeColor = this.ForeColor;
+                    if (isPasswordChar)
+                        textBox1.UseSystemPasswordChar = true;
+                }
+            }            
         }        
         private GraphicsPath GetFigurePath(Rectangle rect, int radius)
         {
@@ -337,6 +370,7 @@ namespace REMAS.Contoller
             if (_TextChanged != null)
                 _TextChanged.Invoke(sender, e);
         }
+
         private void textBox1_Click(object sender, EventArgs e)
         {
             this.OnClick(e);
@@ -368,5 +402,15 @@ namespace REMAS.Contoller
         }
         ///::::+
         #endregion
+
+
+        //
+        // Summary:
+        //     Clears all text from the text box control.
+        public void Clear()
+        {
+            //Text = null;
+            textBox1.Clear();
+        }
     }
 }
