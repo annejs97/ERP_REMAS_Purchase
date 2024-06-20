@@ -17,10 +17,11 @@ namespace REMAS.Contoller
     {
         //Fields
         private Color backColor = Color.WhiteSmoke;
-        private Color iconColor = Color.MediumSlateBlue;
+        private Color iconColor = Color.Gray;
         private Color listBackColor = Color.FromArgb(230, 228, 245);
+        //private Color listBackColor = Color.Gray;
         private Color listTextColor = Color.DimGray;
-        private Color borderColor = Color.MediumSlateBlue;
+        private Color borderColor = Color.Gray;
         private int borderSize = 1;
 
         //Items
@@ -63,7 +64,7 @@ namespace REMAS.Contoller
             lblText.AutoSize = false;
             lblText.BackColor = backColor;
             lblText.TextAlign = ContentAlignment.MiddleLeft;
-            lblText.Padding = new Padding(8, 0, 0, 0);
+            lblText.Padding = new Padding(4, 0, 0, 0);
             lblText.Font = new Font(this.Font.Name, 10F);
             //->Attach label events to user control event
             lblText.Click += new EventHandler(Surface_Click);//Select combo box
@@ -292,7 +293,8 @@ namespace REMAS.Contoller
             cmbList.Location = new Point()
             {
                 X = this.Width - this.Padding.Right - cmbList.Width,
-                Y = lblText.Bottom - cmbList.Height
+                //X = 2,
+                Y = lblText.Bottom - cmbList.Height - 2
             };
         }
 
@@ -367,6 +369,18 @@ namespace REMAS.Contoller
         {
             base.OnResize(e);
             AdjustComboBoxDimensions();
+        }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // RJComboBox
+            // 
+            this.Name = "RJComboBox";
+            this.Size = new System.Drawing.Size(150, 23);
+            this.ResumeLayout(false);
+
         }
     }
 }

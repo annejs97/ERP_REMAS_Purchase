@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(myMsgBox));
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbHeader = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -49,7 +50,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(267, 22);
+            this.panel1.Size = new System.Drawing.Size(272, 22);
             this.panel1.TabIndex = 0;
             // 
             // lbHeader
@@ -72,7 +73,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 22);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(267, 91);
+            this.panel2.Size = new System.Drawing.Size(272, 96);
             this.panel2.TabIndex = 1;
             // 
             // lbMessage
@@ -84,7 +85,7 @@
             this.lbMessage.ForeColor = System.Drawing.Color.Black;
             this.lbMessage.Location = new System.Drawing.Point(0, 0);
             this.lbMessage.Name = "lbMessage";
-            this.lbMessage.Size = new System.Drawing.Size(267, 91);
+            this.lbMessage.Size = new System.Drawing.Size(272, 96);
             this.lbMessage.TabIndex = 0;
             this.lbMessage.Text = "Message Text";
             this.lbMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -96,9 +97,9 @@
             this.panel3.Controls.Add(this.btnNo);
             this.panel3.Controls.Add(this.btnYes);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 113);
+            this.panel3.Location = new System.Drawing.Point(0, 118);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(267, 36);
+            this.panel3.Size = new System.Drawing.Size(272, 36);
             this.panel3.TabIndex = 2;
             // 
             // btnOk
@@ -113,7 +114,6 @@
             this.btnOk.Text = "OK";
             this.btnOk.UseVisualStyleBackColor = false;
             this.btnOk.Visible = false;
-            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // btnNo
             // 
@@ -127,7 +127,6 @@
             this.btnNo.Text = "No";
             this.btnNo.UseVisualStyleBackColor = false;
             this.btnNo.Visible = false;
-            this.btnNo.Click += new System.EventHandler(this.btnNo_Click);
             // 
             // btnYes
             // 
@@ -141,7 +140,6 @@
             this.btnYes.Text = "Yes";
             this.btnYes.UseVisualStyleBackColor = false;
             this.btnYes.Visible = false;
-            this.btnYes.Click += new System.EventHandler(this.btnYes_Click);
             // 
             // ellipseControl1
             // 
@@ -153,12 +151,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(267, 149);
+            this.ClientSize = new System.Drawing.Size(272, 154);
             this.ControlBox = false;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.MaximumSize = new System.Drawing.Size(283, 165);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(288, 170);
             this.MinimumSize = new System.Drawing.Size(283, 165);
             this.Name = "myMsgBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

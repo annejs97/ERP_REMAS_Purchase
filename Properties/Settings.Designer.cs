@@ -22,53 +22,5 @@ namespace REMAS.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
-        public string User {
-            get {
-                return ((string)(this["User"]));
-            }
-            set {
-                this["User"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool DarkMode {
-            get {
-                return ((bool)(this["DarkMode"]));
-            }
-            set {
-                this["DarkMode"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("192.168.117.18")]
-        public string ServerName {
-            get {
-                return ((string)(this["ServerName"]));
-            }
-            set {
-                this["ServerName"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Belden99")]
-        public string PwdDB {
-            get {
-                return ((string)(this["PwdDB"]));
-            }
-            set {
-                this["PwdDB"] = value;
-            }
-        }
     }
 }

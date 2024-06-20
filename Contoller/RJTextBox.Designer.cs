@@ -35,9 +35,9 @@
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(10, 7);
+            this.textBox1.Location = new System.Drawing.Point(1, 7);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(230, 15);
+            this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 0;
             this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -56,8 +56,9 @@
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RJTextBox";
-            this.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.Size = new System.Drawing.Size(250, 30);
+            this.Padding = new System.Windows.Forms.Padding(1, 7, 1, 5);
+            this.Size = new System.Drawing.Size(134, 27);
+            this.Load += new System.EventHandler(this.RJTextBox_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -18,7 +18,7 @@ namespace REMAS.Contoller
         //Fields
         private Color borderColor = Color.MediumSlateBlue;
         private Color borderFocusColor = Color.HotPink;
-        private int borderSize = 2;
+        private int borderSize = 1;
         private int maxLength = 250;
         private bool underlinedStyle = false;
         private bool isFocused = false;
@@ -28,6 +28,7 @@ namespace REMAS.Contoller
         private string placeholderText = "";
         private bool isPlaceholder = false;
         private bool isPasswordChar = false;
+        private bool isReadOnly = false;
 
         //Events
         public event EventHandler _TextChanged;
@@ -101,6 +102,18 @@ namespace REMAS.Contoller
                 isPasswordChar = value;
                 if (!isPlaceholder)
                     textBox1.UseSystemPasswordChar = value;
+            }
+        }
+
+        [Category("RJ Code Advance")]
+        public bool ReadOnly
+        {
+            get { return isReadOnly; }
+            set
+            {
+                isReadOnly = value;
+                textBox1.ReadOnly = isReadOnly;
+                this.Invalidate();
             }
         }
 
@@ -411,6 +424,11 @@ namespace REMAS.Contoller
         {
             //Text = null;
             textBox1.Clear();
+        }
+
+        private void RJTextBox_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
